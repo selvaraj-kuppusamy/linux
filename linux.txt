@@ -1,0 +1,20 @@
+Experienced in linux
+#apt packages
+*UbuntuLinux
+*Kalilinux
+*ParrotosLinux
+
+rpm packages
+*CentOSLinux
+#dnf packages
+*FedoraLinux
+
+#zypper packages
+*OpensuseLinux
+
+#pacman packages
+*Archlinux
+
+#eopkg packages
+*Soluslinux
+*MnajaroLinux
