@@ -3,7 +3,7 @@ Experienced in linux
 *UbuntuLinux
 *Kalilinux
 *ParrotosLinux
-*linuxmint
+*linuxmintLinux
 
 rpm packages
 *CentOSLinux
@@ -15,8 +15,8 @@ rpm packages
 *OpensuseLinux
 
 #pacman packages
-*Archlinux
+*ArchLinux
+*ManjaroLinux
 
 #eopkg packages
-*Soluslinux
-*MnajaroLinux
+*SolusLinux
