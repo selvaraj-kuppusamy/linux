@@ -5,7 +5,7 @@ Experienced in linux
 *ParrotosLinux
 *linuxmintLinux
 
-rpm packages
+#rpm packages
 *CentOSLinux
 
 #dnf packages
