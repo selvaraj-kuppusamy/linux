@@ -3,9 +3,11 @@ Experienced in linux
 *UbuntuLinux
 *Kalilinux
 *ParrotosLinux
+*linuxmint
 
 rpm packages
 *CentOSLinux
+
 #dnf packages
 *FedoraLinux
 
