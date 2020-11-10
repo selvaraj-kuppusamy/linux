@@ -1,0 +1,7 @@
+#commands
+#update
+sudo pacman update
+#upgrade
+sudo pacman upgrade
+#update and upgrade
+sudo pacman update && sudo pacman upgrade
