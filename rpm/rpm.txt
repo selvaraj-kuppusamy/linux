@@ -1,0 +1,7 @@
+#commands
+#update
+sudo yum update
+#upgrade
+sudo yum upgrade
+#update and upgrade
+sudo yum update && sudo yum upgrade
