@@ -1,0 +1,112 @@
+#commands
+#list directories or files
+ls
+
+#make directory
+mkdir
+
+#remove or delete directory
+rmdir 
+rm -r
+
+#rename files
+mv file01.txt file02.txt
+
+#copying one file to another file
+cp file01.txt file02.txt
+
+#remove or delete files 
+rm file.txt
+rm *.txt
+rm *
+
+#maximize or minimize the current screen
+wmctrl -r ':ACTIVE:' -b toggle,fullscreen
+
+#print standard output
+cat file.txt
+
+#print multiple files  standart output
+cat file01.txt file02.txt
+
+#append one file to another file 
+cat file01.txt>>file.txt
+
+#create files
+touch file.txt
+cat > file.txt
+
+#date and time 
+date
+
+#calendor
+cal 
+cal 2001
+cal year
+
+#change directory 
+cd
+cd ~
+cd /
+cs-
+cd ..
+
+#present working directory 
+pwd
+
+#list harware
+lshw
+
+#list harddisk
+fdisk -l
+
+#list cpu
+lscpu
+cat /proc/cpuinfo
+
+#ram used and free
+free
+
+#system information
+screenfetch
+
+#memory usage
+cat /proc/meminfo
+vmstat
+top
+htop
+
+#operating system name 
+uname
+unmae -a
+uname -r
+uname -s
+uname -v
+
+#access read write and execute
+chmod o=rwe,g=rw,o=r file.txt
+chmod 766 file.txt
+chmod -x file.txt
+chmod +x file.txt
+
+#suod privilages
+sudo 
+
+#change root user
+su -
+
+#list history
+history
+
+#permantely delete all history 
+history -c
+
+#clear the screen
+cltr+l
+clear
+
+
+
+
+
+
