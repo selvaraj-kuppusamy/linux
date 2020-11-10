@@ -1,0 +1,7 @@
+#commands
+#upgrade
+sudo apt update
+#update
+sudo apt upgrade
+#update and upgrade
+sudo apt update && sudo apt upgrade
