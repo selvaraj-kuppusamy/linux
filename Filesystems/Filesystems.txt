@@ -1,0 +1,11 @@
+#Types of the linux file systems
+
+ext1
+ext2
+ext3
+ext4
+JFS
+ReiserFS
+XFS
+Btrs(B tree file systems)
+Swap file
