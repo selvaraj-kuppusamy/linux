@@ -1,0 +1,24 @@
+#UNIX/LINUX SHELL
+
+THE Bourne Shell
+The C Shell
+The Korn Shell
+The GNU Bourne-Again Shell
+
+#Shell Types
+*Bournie Shell - $
+*C shell - %
+
+Bourne Shell Subcategories
+*Bourne Shell(sh)
+*Korn Shell(ksh)
+*Bourne Again Shell(bash)
+*POSIX Shell(sh)
+
+C Shell Subcategories
+*C Shell(csh)
+*TENEX/TOPS C Shell(tcsh)
+
+
+The original  unix shell was written in the 1979's by Stephen R.Bourne
+While he was at the AT&T  Bell Labs in New Jersey
