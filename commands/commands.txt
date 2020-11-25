@@ -105,8 +105,7 @@ history -c
 cltr+l
 clear
 
-
-
-
-
+#your own name to command
+alias cls=clear
+alias ubuntudetails=screenfetch
 
