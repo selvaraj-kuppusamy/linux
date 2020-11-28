@@ -109,3 +109,13 @@ clear
 alias cls=clear
 alias ubuntudetails=screenfetch
 
+#check sorted by files in line by line
+comm file01.txt file02.txt
+comm -12 file01.txt file02.txt
+
+#check no of bytes in a file
+cksum filename
+
+#compare two file byte by byte
+cmp file01.txt file02.txt 
+
