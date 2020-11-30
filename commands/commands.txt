@@ -119,3 +119,18 @@ cksum filename
 #compare two file byte by byte
 cmp file01.txt file02.txt 
 
+#Usage of disk
+df
+
+#list the directories
+dir
+
+#compare files by line by line
+diff -n file01.txt file02.txt
+
+#Estimate file space usage
+du
+
+#convert and copy of file
+dd if=/dev/sda of=/dev/sdb
+
