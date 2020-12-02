@@ -134,3 +134,38 @@ du
 #convert and copy of file
 dd if=/dev/sda of=/dev/sdb
 
+#Run a program in modified environment
+env 
+env -0
+env -i /bin/sh
+
+#Display the line by text
+echo "I am selvaraj"
+
+#Cause the program termination
+exit
+
+#Evaluate Experssions
+variable=`expr $variable + 1`
+i=`expr $i +1`
+
+#Eject removable media
+eject -h
+eject -v
+
+#mkdir mutiple directories
+mkdir -p selva/selva{1..100}
+mkdir -p selva/file{1..2}no{1..10}.odt
+mkdir -p selva/c
+mkdir -p selva/{linux,windows,unix}
+
+#rmdir mutiple directories
+rmdir -p selva/selva{1..100}
+rmdir -p selva/file{1..2}no{1..10}.odt
+rmdir -p selva/c
+rmdir -p selva/{linux,windows,unix}
+
+#prints current day
+(date +%A)
+
+
