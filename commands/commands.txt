@@ -168,4 +168,16 @@ rmdir -p selva/{linux,windows,unix}
 #prints current day
 (date +%A)
 
+#prints prime factors of given number
+factor 100
+factor 221
+factor 10
 
+#search file in the directory hierarchy
+find ./Documents -name s.txt
+find ./Downloads -nmae -perm 664
+find ./c -empty
+
+#Display free sapce of memory and usage of memory
+free -h
+free
