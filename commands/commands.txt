@@ -181,3 +181,16 @@ find ./c -empty
 #Display free sapce of memory and usage of memory
 free -h
 free
+
+#print the groups
+groups
+groups selvaraj
+groups root
+
+#gzip commnads
+gzip  -v selva.txt
+
+#gunzip commands 
+gunzip selva.txt.gz
+
+
