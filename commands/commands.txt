@@ -193,4 +193,26 @@ gzip  -v selva.txt
 #gunzip commands 
 gunzip selva.txt.gz
 
+#output the first part of 10 lines
+head file.txt
+head -n a  file.c
 
+#show are set systems hostname
+hostname
+
+private ip address
+hostname -I
+
+#control the system hostname and system information
+hostnamectl
+
+#time clocks utility
+sudo hwclock
+sudo hwclock -r
+sudo hwclock --adjust
+
+#probe the hardware
+hwinfo
+hwinfo --short
+hwinfo --disk
+hwinfo --debug
