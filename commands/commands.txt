@@ -265,4 +265,17 @@ iostat %nice
 ionice
 ionice --version
 
+#root login
+su -
+sudo su
+sudo su -
+sudo su - root
 
+#change one user to another user 
+sudo su selvaraj
+su selvaraj
+
+#logout root user
+logout
+su - selvaraj
+ 
