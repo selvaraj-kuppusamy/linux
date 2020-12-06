@@ -216,3 +216,53 @@ hwinfo
 hwinfo --short
 hwinfo --disk
 hwinfo --debug
+
+#print large banner 
+banner selvaraj
+banner linux
+
+#print real and effective user and group IDs
+id
+
+#configure the network interfaces
+ifconfig
+
+#show and manipiulate routing ,network devices,interfaces and tunnels
+ip -help
+#manage and display newtwork interfaces
+ip link help
+#Get network interface information
+ip link show
+ip -s link
+ip link ls up
+#moniter and manage ip addresses
+ip addr help
+#monitor ip addresses
+ip addr
+ip addr show
+ip -4 addr
+ip -6 addr
+
+#administration tool for IPv4/IPv6 packet filtering and NAT
+sudo iptables --list
+
+#show / manipulate wireless devices and their configuration
+iw
+
+#Get more detailed wireless information from a wireless inter‐face
+iwlist 
+iwlist power
+iwlist auth
+iwlist genie
+
+#Report Central Processing Unit (CPU) statistics and input/out‐put statistics for devices and partitions.
+iostat
+iostat %drqm
+iostat %user
+iostat %nice
+
+#set or get process I/O scheduling class and priority
+ionice
+ionice --version
+
+
