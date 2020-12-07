@@ -279,20 +279,26 @@ su selvaraj
 logout
 su - selvaraj
 
-send Internet Control Message Protocal ECHO_REQUEST to network hosts 
+#send Internet Control Message Protocal ECHO_REQUEST to network hosts 
 ping www.google.com
 
 #Query internet and server interactively
 nslookup www.google.com
 
-manipulate the system Address Resolution Protocal cache
+#manipulate the system Address Resolution Protocal cache
 arp -a
 arp -v
 arp -av
 
-show / manipulate the IP routing table
+#show / manipulate the IP routing table
 route
 
-Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships
+#Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships
 netstat
+
+#kill process by name
+killall -e firefox
+
+
+
 
