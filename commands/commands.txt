@@ -299,6 +299,7 @@ netstat
 #kill process by name
 killall -e firefox
 
-
+#Interactive Spell Checker
+aspell -c file.txt
 
 
