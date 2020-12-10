@@ -302,4 +302,33 @@ killall -e firefox
 #Interactive Spell Checker
 aspell -c file.txt
 
+#Show a listing of last logged users
+last
+lastb
+ 
+#find files from name
+locate file.java
+mlocate  file.sh
+
+#make links between files
+ln file01.txt file02.txt
+ln file01.sh file02.sh
+
+#list USB devices
+lsusb
+lsusb -v
+
+#list of all open files in console
+lsof
+
+#Begin session on the system
+login
+sudo login root
+sudo login -p selvaraj
+login -p
+sudo login -f selvaraj
+
+
+
+
 
