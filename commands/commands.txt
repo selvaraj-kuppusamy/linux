@@ -328,6 +328,8 @@ sudo login -p selvaraj
 login -p
 sudo login -f selvaraj
 
+#Battery percentage
+upower -i /org/freedesktop/UPower/devices/battery_BAT0
 
 
 
