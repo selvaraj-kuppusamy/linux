@@ -331,6 +331,13 @@ sudo login -f selvaraj
 #Battery percentage
 upower -i /org/freedesktop/UPower/devices/battery_BAT0
 
+#show battery status and Advanced Configuration and power interface
+acpi
+acpi -V
+
+ac adapter information
+acpi -a
+
 
 
 
