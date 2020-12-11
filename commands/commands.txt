@@ -338,6 +338,8 @@ acpi -V
 ac adapter information
 acpi -a
 
+#show who logged in and what thay are doing
+w
 
 
 
