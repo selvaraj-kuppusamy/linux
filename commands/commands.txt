@@ -341,5 +341,7 @@ acpi -a
 #show who logged in and what thay are doing
 w
 
-
+#file perusal filter for crt viewing
+more s.c
+more file.txt
 
