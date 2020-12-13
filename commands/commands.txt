@@ -359,3 +359,9 @@ nproc -all
 nproc --help
 nproc --version
 
+#How to open browser in linux oon desktop version
+#Google Chrome open commnad
+google-chrome
+#Mozilla Firefox command
+firefox
+
