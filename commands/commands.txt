@@ -345,3 +345,11 @@ w
 more s.c
 more file.txt
 
+#run a program with modified scheduling priority
+sudo nice --10 gnome-termianl
+
+check the port in use
+sudo -i -p -n  | grep LISTEN
+sudo netstat -tulpn | grep LISTEN
+ss -tulw
+
