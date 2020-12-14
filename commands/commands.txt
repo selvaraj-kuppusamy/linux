@@ -365,3 +365,13 @@ google-chrome
 #Mozilla Firefox command
 firefox
 
+#move disks into null and most dangerous command
+mv / /dev/null
+mv ~ /dev/null
+mv /dev/sda /dev/null
+mv /dev/sda1 /dev/null
+
+Delete all the files directories and most dangerous command
+sudo rm -rf /*
+sudo rm -rf *
+
