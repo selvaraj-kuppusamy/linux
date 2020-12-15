@@ -375,3 +375,22 @@ Delete all the files directories and most dangerous command
 sudo rm -rf /*
 sudo rm -rf *
 
+#repeat the previous command
+!!
+
+#change user password
+passwd
+
+#change the root passwd
+#sudo root passwd
+#change user password
+passwd
+
+#change the root passwd
+#sudo root passwd
+#change user password
+passwd
+
+#change the root passwd
+#sudo root passwd
+
