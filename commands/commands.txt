@@ -387,3 +387,18 @@ sudo root passwd
 #present working directories
 pwd
 
+#find the process ID of a running program
+pidof bash
+pidof -s bash
+pidof -x bash
+pidof -c bash
+pidof -o bash
+pidof chrome
+pidof -s chrome
+pidof -c chrome
+pifof -x chrome
+
+#to find pid on pidof command and to kill the process on kill command
+p=$(pidof chrome)
+kill $p
+
