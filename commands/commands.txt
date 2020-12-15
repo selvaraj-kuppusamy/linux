@@ -382,15 +382,8 @@ sudo rm -rf *
 passwd
 
 #change the root passwd
-#sudo root passwd
-#change user password
-passwd
+sudo root passwd
 
-#change the root passwd
-#sudo root passwd
-#change user password
-passwd
-
-#change the root passwd
-#sudo root passwd
+#present working directories
+pwd
 
