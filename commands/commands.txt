@@ -402,7 +402,7 @@ pifof -x chrome
 p=$(pidof chrome)
 kill $p
 
-
-
+#report the snapshot of the current processces
+ps
 
 
