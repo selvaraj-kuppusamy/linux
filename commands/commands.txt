@@ -409,6 +409,17 @@ ps
 pstree 
 pstree -a `pgrep ssh`
 
+#reboot the machine
+reboot
+
+#link between two files
+ln file01.txt file02.txt
+ln s.txt r.txt
+
+#renaming the files
+rename -v 's/txt/docx/' s.txt
+rename -n 's/png/jpeg/' *.png
+rename -V 'files/jpeg/png/' *.jpeg
 
 
 
