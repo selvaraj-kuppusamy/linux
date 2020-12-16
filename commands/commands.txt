@@ -425,3 +425,13 @@ rename -V 'files/jpeg/png/' *.jpeg
 rdiff-backup -V
 rdiff-bacup --exclude Desktop/s.txt ./Documents/s.txt.backup
 
+list poweroff system commands
+sudo poweroff
+poweroff
+shutdown -h now
+shutdown -n 1
+shutdown +30 "it will poweroff after 30 minutes"
+shutdown 19.00
+sudo shutdown -h now
+
+
