@@ -1,0 +1,8 @@
+Specific UID numbers and ranges of number are used for specific purposes by Red Hat Enterprise Linux
+
+UID 0       = root.
+UID 1-200   = range of "system users" assigned statically to system processes by Red Hat.
+UID 201-999 = range of "system users" used by system processes that do not own files on the file system.It is assigned dynamically from the available pool theneeds to them is installed. programs run as "unprivileged" system users in order to limit their access to only the resources they need to function.
+UID 1000+   = range available for assignment to regular users and groups.
+
+
