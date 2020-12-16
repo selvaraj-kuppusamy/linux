@@ -405,4 +405,10 @@ kill $p
 #report the snapshot of the current processces
 ps
 
+#dispaly a tree of processes
+pstree 
+pstree -a `pgrep ssh`
+
+
+
 
