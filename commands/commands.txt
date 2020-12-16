@@ -423,5 +423,5 @@ rename -V 'files/jpeg/png/' *.jpeg
 
 #local/remote mirror and incremental backup
 rdiff-backup -V
-rdiff-bacup --exclude Documents/s.txt ./Documents/s.txt.backup
+rdiff-bacup --exclude Desktop/s.txt ./Documents/s.txt.backup
 
