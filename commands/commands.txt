@@ -449,3 +449,29 @@ scp selvaraj@10.10.0.1 :/Documents.file.txt selva@10.10.0.2 :/selva/
 #route the traffic through the machine 
 scp -3 selvaraj@10.10.0.9:/Documents/file.txt selva@10.10.0.1:/selva
 
+#delay the specified amount of time 
+sleep 10s 
+sleep 1m
+sleep 1h
+sleep 1d
+
+#sort lines of text files
+sort file.txt
+sort selva.txt
+#sort lines of text files
+sort file.txt
+sort selva.txt
+#sort lines of text files
+sort file.txt
+sort selva.txt
+sort selva.txt > raj.txt
+sort -o raj.txt selva.txt
+sort -r selva.txt
+sort -n number.txt
+sort -nr number.txt
+sort -k 3i name.txt
+sort -c selva.txt
+sort -u selva.txt
+sort -m months.txt
+
+
