@@ -42,7 +42,9 @@ date
 #calendor
 cal 
 cal 2001
-cal year
+cal 2019
+cal 12 2020
+
 
 #change directory 
 cd
@@ -434,4 +436,16 @@ shutdown +30 "it will poweroff after 30 minutes"
 shutdown 19.00
 sudo shutdown -h now
 
+#OpenSSH secure file copy
+#local to remote
+scp file.txt selvaraj@10.10.0.2:/remote/selva
+scp file.txt selvaraj@10.10.0.2;/remote/selva/newfile.txt
+scp -P 2322 file.txt selvaraj@10.10.0.2:/remote/selva
+scp -r /local/Documents selvaraj@10.10.0.2:/remote/selva
+#remote to local
+scp selvaraj@10.10.0.2:/remote/file.txt /local/Documents
+#two remote systems
+scp selvaraj@10.10.0.1 :/Documents.file.txt selva@10.10.0.2 :/selva/
+#route the traffic through the machine 
+scp -3 selvaraj@10.10.0.9:/Documents/file.txt selva@10.10.0.1:/selva
 
