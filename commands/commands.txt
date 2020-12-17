@@ -474,4 +474,9 @@ sort -c selva.txt
 sort -u selva.txt
 sort -m months.txt
 
+#checksum and count the blocks in a file
+sum file.txt
+sum -r file.txt
+sum -s file.txt
+
 
