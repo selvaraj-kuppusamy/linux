@@ -479,4 +479,24 @@ sum file.txt
 sum -r file.txt
 sum -s file.txt
 
+#split a file into pieces
+split sleva.txt
+split selva.txt selvaraj
+split -l 5 selva.txt selvaraj
+split selva.txt -l 4 --verbose
+split -b 16 selva.txt selva
+split -l 4 -a 4 selva.txt
+split -l 4 -d selva.txt
+split -n 3 selva.txt
+split -l 4 -e selva.txt
+
+#display file or file system status
+stat selva.txt
+stat raj.c
+
+#run a command with substitute user and group ID
+sudo su -
+sudo su selvaraj
+su -
+sudo su selva
 
