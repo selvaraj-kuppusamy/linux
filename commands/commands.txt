@@ -500,3 +500,7 @@ sudo su selvaraj
 su -
 sudo su selva
 
+#shell types your operating system
+cat /etc/shells
+
+
