@@ -503,4 +503,33 @@ sudo su selva
 #shell types your operating system
 cat /etc/shells
 
+#concatenate and print files in reverse
+tac selva.txt
+tac -b selva.txt raj.txt
+tac -r selva.txt raj.txt
+tac -s selva.txt raj.txt
+tac --help
+
+#output the last part of the lines
+tail selva.txt
+
+#Display Linux processes
+top 
+
+#create empty file
+touch file.txt
+
+#check os versions in linux
+hostnamectl
+lsb_release -a
+cat /etc/*issue
+cat /etc/os-release
+cat /etc/*release
+
+#find linux kernal version
+uname -r
+
+#run programs and summarize system resource usage
+time sleep 5
+time -p sleep 5
 
