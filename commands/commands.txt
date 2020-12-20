@@ -533,3 +533,23 @@ uname -r
 time sleep 5
 time -p sleep 5
 
+#print system information
+uname -a
+uname -s
+uname -n
+uname -r 
+uname -m
+uname -p
+uname -i
+uname -o
+
+#report or omit repeated lines
+uniq file.txt
+uniq -c file.txt
+uniq -d file.txt
+uniq -D file.txt
+uniq -u file.txt
+uniq -f 2 file.txt
+uniq -w 3 file.txt
+uniq -i file.txt
+uniq -z file.txt
