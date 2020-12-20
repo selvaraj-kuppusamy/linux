@@ -553,3 +553,11 @@ uniq -f 2 file.txt
 uniq -w 3 file.txt
 uniq -i file.txt
 uniq -z file.txt
+
+#print the user names of users currently logged in to the current host
+users
+
+#Tell how long the system has been running
+uptime
+
+
