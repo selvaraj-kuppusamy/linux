@@ -560,4 +560,8 @@ users
 #Tell how long the system has been running
 uptime
 
+#Domain Name System lookup utility
+dig -v 
+dig google.com
+dig @8.8.8.8 google.com
 
