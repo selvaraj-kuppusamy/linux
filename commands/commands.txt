@@ -565,3 +565,7 @@ dig -v
 dig google.com
 dig @8.8.8.8 google.com
 
+#output a string repeatedly until killed
+yes
+yes linux
+
