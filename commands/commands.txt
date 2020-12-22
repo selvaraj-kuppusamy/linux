@@ -573,3 +573,21 @@ yes linux
 watch -b free -m
 watch -p free -m
 
+#The non-interactive network downloader
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+wget http://www.google.com/google.txt -o /selva/selva.txt
+
+#locate a command
+which bash
+which poweroff
+which man
+which ls
+which rm
+
+#show who is logged on
+who
+who -all
+who -r
+who -s
+
+
