@@ -572,6 +572,8 @@ yes linux
 #execute a program periodically, showing output fullscreen
 watch -b free -m
 watch -p free -m
+#quit watch commnads
+ctrl+c
 
 #The non-interactive network downloader
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
