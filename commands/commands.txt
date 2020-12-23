@@ -592,4 +592,8 @@ who -all
 who -r
 who -s
 
+#find server public IP address in curl command
+curl ifconfig.co
+curl ifconfig.me
+curl ifconfig.com
 
