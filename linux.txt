@@ -6,6 +6,7 @@ Experienced in linux
 *linuxmintLinux
 
 #rpm packages
+RedHat linux
 *CentOSLinux
 
 #dnf packages
