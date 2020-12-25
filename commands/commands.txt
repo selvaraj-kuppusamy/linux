@@ -585,6 +585,7 @@ which poweroff
 which man
 which ls
 which rm
+which google-chrome-stable
 
 #show who is logged on
 who
