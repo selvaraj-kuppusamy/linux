@@ -598,3 +598,10 @@ curl ifconfig.co
 curl ifconfig.me
 curl ifconfig.com
 
+#history commnad
+history
+
+#delete all the history 
+history -c
+
+
