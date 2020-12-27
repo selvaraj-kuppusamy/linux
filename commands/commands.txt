@@ -604,4 +604,7 @@ history
 #delete all the history 
 history -c
 
+delete empty directories using find command
+mkdir -p testing/selva{1..4}
+find . -type d -empty -delete
 
