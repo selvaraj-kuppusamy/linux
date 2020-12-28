@@ -611,3 +611,7 @@ find . -type d -empty -delete
 print reverse
 rev
 selvaraj
+
+print kernal and driver messages
+dmesg
+
