@@ -618,3 +618,5 @@ dmesg
 #report virtual memory statistics
 vmstat
 
+#continuous digital clock in linux terminal
+watch -t -n 1 date +%T
