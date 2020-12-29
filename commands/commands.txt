@@ -615,3 +615,6 @@ selvaraj
 print kernal and driver messages
 dmesg
 
+#report virtual memory statistics
+vmstat
+
