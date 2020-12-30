@@ -620,3 +620,13 @@ vmstat
 
 #continuous digital clock in linux terminal
 watch -t -n 1 date +%T
+
+#commnad line tool for controlling manager
+nmcli
+
+#list available wifi networks
+nmcli device wifi list
+nmcli connection show
+nmcli connection show "BLU R1 HD "
+nmcli dev wifi
+
