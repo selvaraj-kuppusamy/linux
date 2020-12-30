@@ -630,3 +630,10 @@ nmcli connection show
 nmcli connection show "BLU R1 HD "
 nmcli dev wifi
 
+#find internet download speed and upload speed 
+curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -
+speedtest
+speedtest-cli
+
+
+
