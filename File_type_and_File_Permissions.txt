@@ -1,0 +1,8 @@
+The File Type and File Permissions
+1.Regular file(-)
+2.Directory(d)
+3.Link(l)
+4.Special File(c)
+5.Socket(s)
+6.Named pipe(p)
+7.Block device(b)
