@@ -649,3 +649,7 @@ git commit -a
 check kernal version
 dmesg | grep Linux
 
+#user information lookup program
+finger selvaraj
+finger root
+
