@@ -653,3 +653,13 @@ dmesg | grep Linux
 finger selvaraj
 finger root
 
+#find public IP address
+curl ifconfig.me
+curl api.ipify.org
+curl checkip.dyndns.org
+dig +short myip.opendns.com @resolver1.opendns.com
+host myip.opendns.com resolver1.opendns.com
+curl ident.me
+curl bot.whatismyipaddress.com
+curl ipecho.net/plain
+
