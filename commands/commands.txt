@@ -663,3 +663,10 @@ curl ident.me
 curl bot.whatismyipaddress.com
 curl ipecho.net/plain
 
+#find private IP address
+ifconfig -a
+hostname -I
+hostname -I | awk '{print $1}'
+ip route  get 1.2.3.4 | awk '{print $7}'
+nmcli -p device show
+
