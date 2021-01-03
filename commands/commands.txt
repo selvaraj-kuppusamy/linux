@@ -678,3 +678,7 @@ compile and run java
 javac selva.java
 java selva
 
+#word count 
+#Used for counting - No of words and lines
+wc file.txt
+
