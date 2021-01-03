@@ -674,3 +674,7 @@ nmcli -p device show
 ip addr
 ip add
 
+compile and run java
+javac selva.java
+java selva
+
