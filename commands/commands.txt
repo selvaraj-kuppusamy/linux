@@ -645,6 +645,11 @@ git status
 git add file.txt
 git add selva/file.txt
 git commit -a
+#Configuring git
+git config --global user.name "selvaraj-kuppusamy"
+git config --global user.name "your mailid"
+#cloning git
+git clone https://github.com/selvaraj-kuppusamy/linux.git
 
 check kernal version
 dmesg | grep Linux
@@ -688,4 +693,5 @@ last
 w
 finger
 id
+
 
