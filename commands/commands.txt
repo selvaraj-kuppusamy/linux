@@ -682,3 +682,10 @@ java selva
 #Used for counting - No of words and lines
 wc file.txt
 
+commnads to monitor users
+who
+last
+w
+finger
+id
+
