@@ -729,7 +729,7 @@ echo "$$"
 #Show id of the last background job
 echo "$!"
 
-#add user
+#creating user or add user
 sudo adduser selvaraj
 sudo adduser selva
 sudo adduser linux
@@ -738,6 +738,16 @@ sudo passwd selvaraj
 sudo passwd selva
 sudo passwd linux
 
-
+#creating groups add groups
+sudo groupadd selva
+sudo groupadd -g 10000 selvaraj
+sudo groupadd -r linux
+sudo groupmod -n selvaraj linux
+sudo groupmod -g 20000 selvaraj
+sudo usermod -g selvaraj linux
+sudo usermod -aG selvaraj selva
+sudo usermod -G selvaraj selva
+sudo groupdel selva
+sudo groupdel linux
 
 
