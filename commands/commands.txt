@@ -697,3 +697,10 @@ id
 #command status or process status
 echo "$?"
 
+#set access privilage in the mkdir command
+mkdir -m=r-- Documents
+mkdir -m=rwx-- Downloads
+mkdir -m=rx-- Music
+mkdir -m=rwx-- selvaraj
+
+
