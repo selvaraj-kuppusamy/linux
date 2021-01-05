@@ -730,13 +730,13 @@ echo "$$"
 echo "$!"
 
 #add user
-adduser selvaraj
-adduser selva
-adduser linux
+sudo adduser selvaraj
+sudo adduser selva
+sudo adduser linux
 #set password
-passwd selvaraj
-passwd selva
-passwd linux
+sudo passwd selvaraj
+sudo passwd selva
+sudo passwd linux
 
 
 
