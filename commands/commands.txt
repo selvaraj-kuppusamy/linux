@@ -753,7 +753,7 @@ sudo groupdel linux
 #display file or file system status
 stat -c "%a" selva.txt
 
-#chmod commnands or file permission commnands
+#chmod commnands or file permission commands
 chmod u=rwx,g=rw,o=r selva.txt
 chmod u=rwx,g=r,o= selva.txt
 chmod a+rwx selva.txt
@@ -764,4 +764,8 @@ chmod 777 selva.txt
 chmod 655 selva.txt
 chmod 755 selva.txt
 
+#file permission set recursively on the files in the entire directory tree in chmod commands
+chmod -R ugo=rwx Bash/
+chmod -R +x Shellscript/
+chmod -R 777 Zsh/
 
