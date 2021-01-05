@@ -746,8 +746,22 @@ sudo groupmod -n selvaraj linux
 sudo groupmod -g 20000 selvaraj
 sudo usermod -g selvaraj linux
 sudo usermod -aG selvaraj selva
-sudo usermod -G selvaraj selva
+sudo usermod -G selvaraj unix
 sudo groupdel selva
 sudo groupdel linux
+
+#display file or file system status
+stat -c "%a" selva.txt
+
+#chmod commnands or file permission commnands
+chmod u=rwx,g=rw,o=r selva.txt
+chmod u=rwx,g=r,o= selva.txt
+chmod a+rwx selva.txt
+chmod a-x selva.txt
+chmod +x selva.txt
+chmod -x selva.txt
+chmod 777 selva.txt
+chmod 655 selva.txt
+chmod 755 selva.txt
 
 
