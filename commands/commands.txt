@@ -708,4 +708,25 @@ set
 env
 printenv
 
+#Specifies the name of the script to be invoked
+echo "$0"
+
+#total number of aruguments passed the script
+echo "$#"
+
+#stores all the commnad line arguments by joining them together
+echo "$*"
+
+#stores the list of arguments as an array
+echo "$@"
+
+#the process id of the current script
+echo "$?"
+
+#the exit status of the last command or the most recent execution process
+echo "$$"
+
+#Show id of the last background job
+echo "$!"
+
 
