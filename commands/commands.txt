@@ -177,7 +177,7 @@ factor 10
 
 #search file in the directory hierarchy
 find ./Documents -name s.txt
-find ./Downloads -nmae -perm 664
+find ./Downloads -name -perm 664
 find ./c -empty
 
 #Display free sapce of memory and usage of memory
