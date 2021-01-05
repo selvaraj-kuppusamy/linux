@@ -729,4 +729,15 @@ echo "$$"
 #Show id of the last background job
 echo "$!"
 
+#add user
+adduser selvaraj
+adduser selva
+adduser linux
+#set password
+passwd selvaraj
+passwd selva
+passwd linux
+
+
+
 
