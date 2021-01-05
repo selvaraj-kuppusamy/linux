@@ -679,7 +679,7 @@ nmcli -p device show
 ip addr
 ip add
 
-compile and run java
+#compile and run java
 javac selva.java
 java selva
 
@@ -687,11 +687,13 @@ java selva
 #Used for counting - No of words and lines
 wc file.txt
 
-commnads to monitor users
+#commnads to monitor users
 who
 last
 w
 finger
 id
 
+#command status or process status
+echo "$?"
 
