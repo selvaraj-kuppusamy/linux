@@ -769,4 +769,11 @@ chmod -R ugo=rwx Bash/
 chmod -R +x Shellscript/
 chmod -R 777 Zsh/
 
+#changing file and Directory user or Group Ownership
+chown root poweroff.c
+chown -R root C
+chown :selvaraj poweroff.c
+chown root:selvaraj colour.c
+
+
 
