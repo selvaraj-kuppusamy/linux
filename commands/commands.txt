@@ -774,6 +774,8 @@ chown root poweroff.c
 chown -R root C
 chown :selvaraj poweroff.c
 chown root:selvaraj colour.c
-
+chown selvaraj.root s.c
+chown root.selvaraj colour.c
+chown selvaraj.root s.c
 
 
