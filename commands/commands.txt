@@ -703,4 +703,9 @@ mkdir -m=rwx-- Downloads
 mkdir -m=rx-- Music
 mkdir -m=rwx-- selvaraj
 
+#to see system defined variable
+set
+env
+printenv
+
 
