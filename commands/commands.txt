@@ -788,3 +788,7 @@ tar rvf backup *.c'
 tar tvf selva.tar | grep "project_1.c"
 tar tvf backup.tar
 tar tar selva.tar --wildcards '*.png'
+
+#funny commnads in linux
+cowsay -f elephant-in-snake linux is best operting system
+
