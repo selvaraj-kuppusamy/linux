@@ -791,4 +791,6 @@ tar tar selva.tar --wildcards '*.png'
 
 #funny commnads in linux
 cowsay -f elephant-in-snake linux is best operting system
+xeyes
+xcowsay i love linux
 
