@@ -778,4 +778,13 @@ chown selvaraj.root s.c
 chown root.selvaraj colour.c
 chown selvaraj.root s.c
 
-
+#tar commnads
+tar cvf backup.tar *.c
+tar xvf selva.tar 
+tar cvzf backup.tar.gz *.c
+tar xvfz backup.tar.gz
+tar cbvfj selva.tar.tbz buzzle.cpp
+tar rvf backup *.c'
+tar tvf selva.tar | grep "project_1.c"
+tar tvf backup.tar
+tar tar selva.tar --wildcards '*.png'
