@@ -794,3 +794,12 @@ cowsay -f elephant-in-snake linux is best operting system
 xeyes
 xcowsay i love linux
 cmatrix
+
+#grep commnads
+grep linux selva.txt
+grep redhat selva.txt raj.txt linux.txt
+grep ubuntu *
+grep -w selvaraj *
+grep -i linux *
+grep -r selvaraj *
+
