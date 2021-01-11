@@ -803,3 +803,10 @@ grep -w selvaraj *
 grep -i linux *
 grep -r selvaraj *
 
+#enable/disable devices and files for paging and swap‐ping
+swapon
+
+#another utility to investigate sockets
+ss
+
+
