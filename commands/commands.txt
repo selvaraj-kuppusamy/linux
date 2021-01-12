@@ -809,4 +809,7 @@ swapon
 #another utility to investigate sockets
 ss
 
+#tool to take pictures and videos from your webcam
+cheese
+
 
