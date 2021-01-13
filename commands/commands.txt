@@ -812,4 +812,6 @@ ss
 #tool to take pictures and videos from your webcam
 cheese
 
+#Show the status of modules in the Linux Kernel
+lsmod
 
