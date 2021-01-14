@@ -818,4 +818,7 @@ lsmod
 #DNS lookup and validation utility
 delv
 
-
+#run mutiple commmnads in single line
+ls ; w ; date ; pwd ; whoami
+[[ 1 -eq 1 ]] && echo true || echo false
+ 
