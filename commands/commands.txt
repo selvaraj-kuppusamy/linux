@@ -821,4 +821,8 @@ delv
 #run mutiple commmnads in single line
 ls ; w ; date ; pwd ; whoami
 [[ 1 -eq 1 ]] && echo true || echo false
+
+#list block devices
+lsblk
+
  
