@@ -824,5 +824,21 @@ ls ; w ; date ; pwd ; whoami
 
 #list block devices
 lsblk
-
+lsblk -i
+lsblk -J
+lsblk -O
+lsblk -p
+lsblk -P
+lsblk -s
+lsblk -S
+lsblk -a
+lsblk -f
+lsblk -l
+lsblk -m
+lsblk -M
+lsblk -r
+lsblk -t
+lsblk -z
+lsblk -n
+lsblk -V
  
