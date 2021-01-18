@@ -842,3 +842,9 @@ lsblk -z
 lsblk -n
 lsblk -V
  
+ #make file system
+ mkfs.vfat -F 32 /dev/sdb1
+ mkfs.vfat /dev/sdb1
+ mkfs.ext4 /dev/sdb2
+ mkfs.ntfs /dev/sdc1
+ 
