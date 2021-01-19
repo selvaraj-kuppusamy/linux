@@ -847,4 +847,11 @@ lsblk -V
  mkfs.vfat /dev/sdb1
  mkfs.ext4 /dev/sdb2
  mkfs.ntfs /dev/sdc1
- 
+
+#firewalld command line client
+sudo firewall-cmd --get-active-zones
+sudo firewall-cmd --zone corp --list-all
+sudo firewall-cmd --add-service http --permanent
+sudo firewall-cmd --add-service https --permanent
+sudo firewall-cmd --reload
+
