@@ -648,6 +648,7 @@ git commit -a
 #Configuring git
 git config --global user.name "selvaraj-kuppusamy"
 git config --global user.name "your mailid"
+git config --list
 #cloning git
 git clone https://github.com/selvaraj-kuppusamy/linux.git
 
