@@ -901,6 +901,32 @@ sudo vi /var/log journalctl
 tar
 cpio
 
+#Kernal,Boot,Hardware
+#poweroff system
+poweroff
+systemctl poweroff
+
+#Halt system
+halt 
+syetemctl reboot
+
+#Reboot system
+reboot
+systemctl reboot
+
+#configure GRUB
+sudo vi /etc/default/grub
+
+#view kernal Parameters
+sysctl -a
+cat /proc/cmdline
+
+#load kernal module 
+modprobe 
+
+#view kernal version
+rpm -q kernal
+uname -r
 
 
 
