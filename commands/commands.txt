@@ -885,5 +885,22 @@ systemctl enable httpd
 systemctl disable httpd
 
 #check service status
+systemctl status enable
+
+#see is a service is enabled
 systemctl is-enabled httpd
+
+#configure logs
+sudo vi /etc/rsyslog.conf
+sudo vi /etc/rsyslog.d/*.conf
+
+#view log files
+sudo vi /var/log journalctl
+
+#create Archive
+tar
+cpio
+
+
+
 
