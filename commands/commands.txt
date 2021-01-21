@@ -856,3 +856,34 @@ sudo firewall-cmd --add-service http --permanent
 sudo firewall-cmd --add-service https --permanent
 sudo firewall-cmd --reload
 
+#Basic Configuration
+#Control the system locale and keyboard layout settings
+localectl
+
+control the date and time 
+timedatectl
+
+#configure SSH
+sudo vi /etc/ssh/ssh_config
+sudo vi /etc/ssh/sshd_config
+
+#Jobs and Services
+#List all services
+systemctl -at service
+ls /etc/systemd/system/*.service
+ls /usr/lin/systemd/system/*.service
+
+#List services that are Running 
+systemctl -t service --state=active
+
+#Start and stop services
+systemctl start httpd
+systemctl stop httpd
+
+#enable and disable services
+systemctl enable httpd
+systemctl disable httpd
+
+#check service status
+systemctl is-enabled httpd
+
