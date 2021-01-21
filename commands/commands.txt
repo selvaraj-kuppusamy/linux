@@ -928,5 +928,38 @@ modprobe
 rpm -q kernal
 uname -r
 
+#User Management 
+#create user 
+sudo useradd selvaraj
 
+delete user 
+sudo userdel selvaraj
+
+#view or change user details
+usermod -aG selvaraj
+sudo vi /etc/passwd
+sudo vipw
+id
+
+#create user group
+groupadd selvaraj
+
+#delete  user group
+groupdel selvaraj
+
+#change group detalis
+groupmod -a selvaraj
+sudo vi /etc/group
+
+#change user password
+passwd selvaraj
+
+#change user permissions
+sudo visudo
+
+#change password policy
+chage -l selvaraj
+
+#view user sessions
+w
 
