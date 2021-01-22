@@ -1029,5 +1029,17 @@ view ports and sockets
 ss
 lsof
 
+#Security And Identity
+#Configure security system
+sudo vi /etc/selinux/config chcon
+restorecon
+semanage
+setsbool
 
+#LDAP,SSSD
+authconfig
+authconfig-tui
+
+#Network Users
+getent
 
