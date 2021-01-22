@@ -1001,4 +1001,33 @@ chattr
 #change Access Control list
 setfacl
 
+#Networking 
+
+#Change Name Resolution
+sudo vi /etc/hosts
+sudo vi /etc/resolv.conf
+
+#configure  Hosname
+hostnamectl
+sudo vi /etc/hostname
+
+#View Network Interface Information
+ip addr
+teamctl
+bridge
+
+#view Routes
+ip route
+
+#configure Routes
+ip route add
+
+#Configure Firewall
+firewall-cmd
+
+view ports and sockets
+ss
+lsof
+
+
 
