@@ -963,3 +963,42 @@ chage -l selvaraj
 #view user sessions
 w
 
+#Files Systems,Volumes And Disks
+fdisk
+gdisk
+parted
+ssm create
+
+#Format Disk Partitions
+mkswap
+
+#check and repair a Linux filesystem 
+fsck
+
+#mount storage
+mount
+sudo vi /etc/fstab
+
+#Defragement Disk Space
+fsck
+
+#Mount and Activate Swap
+sudo vi /etc/fstab
+swapon -a
+
+#view free disk space
+df
+
+#change File permissions
+chmod
+chown
+chgrp
+umask
+
+#change File Attributes
+chattr
+
+#change Access Control list
+setfacl
+
+
