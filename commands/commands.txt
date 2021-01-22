@@ -1043,3 +1043,24 @@ authconfig-tui
 #Network Users
 getent
 
+#Resource Management
+#change process Priority
+nice
+renice
+
+#change process Run Location
+taskset
+
+#kill a process
+kill
+pkill
+
+#view system usage
+top
+ps
+ss
+vmstat
+
+#view disk usage
+df
+
