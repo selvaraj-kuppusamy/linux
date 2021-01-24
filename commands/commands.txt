@@ -1072,3 +1072,7 @@ vmstat
 #view disk usage
 df
 
+#Adduser in linux
+adduser selvaraj
+
+
