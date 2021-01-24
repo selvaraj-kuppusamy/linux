@@ -855,3 +855,13 @@ sudo firewall-cmd --add-service http --permanent
 sudo firewall-cmd --add-service https --permanent
 sudo firewall-cmd --reload
 
+#Listing Hard Drivers in Linux
+df
+sudo fdisk -l
+lsblk
+sudo cfdisk
+sudo parted
+sudo sfdisk -l
+
+
+
