@@ -856,7 +856,6 @@ sudo firewall-cmd --add-service http --permanent
 sudo firewall-cmd --add-service https --permanent
 sudo firewall-cmd --reload
 
-<<<<<<< HEAD
 #Listing Hard Drivers in Linux
 df
 sudo fdisk -l
@@ -865,8 +864,6 @@ sudo cfdisk
 sudo parted
 sudo sfdisk -l
 
-
-=======
 #Basic Configuration
 #Control the system locale and keyboard layout settings
 localectl
@@ -1074,5 +1071,5 @@ vmstat
 
 #view disk usage
 df
->>>>>>> 3d746745f44c9fbac9aa76afa9522951b2b5c9a8
+
 
