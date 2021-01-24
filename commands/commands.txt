@@ -648,6 +648,7 @@ git commit -a
 #Configuring git
 git config --global user.name "selvaraj-kuppusamy"
 git config --global user.name "your mailid"
+git config --list
 #cloning git
 git clone https://github.com/selvaraj-kuppusamy/linux.git
 
@@ -855,6 +856,7 @@ sudo firewall-cmd --add-service http --permanent
 sudo firewall-cmd --add-service https --permanent
 sudo firewall-cmd --reload
 
+<<<<<<< HEAD
 #Listing Hard Drivers in Linux
 df
 sudo fdisk -l
@@ -864,4 +866,213 @@ sudo parted
 sudo sfdisk -l
 
 
+=======
+#Basic Configuration
+#Control the system locale and keyboard layout settings
+localectl
+
+control the date and time 
+timedatectl
+
+#configure SSH
+sudo vi /etc/ssh/ssh_config
+sudo vi /etc/ssh/sshd_config
+
+#Jobs and Services
+#List all services
+systemctl -at service
+ls /etc/systemd/system/*.service
+ls /usr/lin/systemd/system/*.service
+
+#List services that are Running 
+systemctl -t service --state=active
+
+#Start and stop services
+systemctl start httpd
+systemctl stop httpd
+
+#enable and disable services
+systemctl enable httpd
+systemctl disable httpd
+
+#check service status
+systemctl status enable
+
+#see is a service is enabled
+systemctl is-enabled httpd
+
+#configure logs
+sudo vi /etc/rsyslog.conf
+sudo vi /etc/rsyslog.d/*.conf
+
+#view log files
+sudo vi /var/log journalctl
+
+#create Archive
+tar
+cpio
+
+#Kernal,Boot,Hardware
+#poweroff system
+poweroff
+systemctl poweroff
+
+#Halt system
+halt 
+syetemctl reboot
+
+#Reboot system
+reboot
+systemctl reboot
+
+#configure GRUB
+sudo vi /etc/default/grub
+
+#view kernal Parameters
+sysctl -a
+cat /proc/cmdline
+
+#load kernal module 
+modprobe 
+
+#view kernal version
+rpm -q kernal
+uname -r
+
+#User Management 
+#create user 
+sudo useradd selvaraj
+
+delete user 
+sudo userdel selvaraj
+
+#view or change user details
+usermod -aG selvaraj
+sudo vi /etc/passwd
+sudo vipw
+id
+
+#create user group
+groupadd selvaraj
+
+#delete  user group
+groupdel selvaraj
+
+#change group detalis
+groupmod -a selvaraj
+sudo vi /etc/group
+
+#change user password
+passwd selvaraj
+
+#change user permissions
+sudo visudo
+
+#change password policy
+chage -l selvaraj
+
+#view user sessions
+w
+
+#Files Systems,Volumes And Disks
+fdisk
+gdisk
+parted
+ssm create
+
+#Format Disk Partitions
+mkswap
+
+#check and repair a Linux filesystem 
+fsck
+
+#mount storage
+mount
+sudo vi /etc/fstab
+
+#Defragement Disk Space
+fsck
+
+#Mount and Activate Swap
+sudo vi /etc/fstab
+swapon -a
+
+#view free disk space
+df
+
+#change File permissions
+chmod
+chown
+chgrp
+umask
+
+#change File Attributes
+chattr
+
+#change Access Control list
+setfacl
+
+#Networking 
+
+#Change Name Resolution
+sudo vi /etc/hosts
+sudo vi /etc/resolv.conf
+
+#configure  Hosname
+hostnamectl
+sudo vi /etc/hostname
+
+#View Network Interface Information
+ip addr
+teamctl
+bridge
+
+#view Routes
+ip route
+
+#configure Routes
+ip route add
+
+#Configure Firewall
+firewall-cmd
+
+view ports and sockets
+ss
+lsof
+
+#Security And Identity
+#Configure security system
+sudo vi /etc/selinux/config chcon
+restorecon
+semanage
+setsbool
+
+#LDAP,SSSD
+authconfig
+authconfig-tui
+
+#Network Users
+getent
+
+#Resource Management
+#change process Priority
+nice
+renice
+
+#change process Run Location
+taskset
+
+#kill a process
+kill
+pkill
+
+#view system usage
+top
+ps
+ss
+vmstat
+
+#view disk usage
+df
+>>>>>>> 3d746745f44c9fbac9aa76afa9522951b2b5c9a8
 

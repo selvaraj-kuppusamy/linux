@@ -1,7 +1,50 @@
 #commands
-#update
+#update software
 sudo yum update
-#upgrade
+#upgrade software
 sudo yum upgrade
 #update and upgrade
 sudo yum update && sudo yum upgrade
+
+#Software management
+#Install software 
+sudo yum install httpd
+sudo yum group install 
+sudo yum group install --version
+
+#View Software Info
+sudo yum info httpd
+sudo yum group info
+
+Configure software repositories
+sudo vi /etc/yum.repos.d/*.repo
+
+#find package owning file
+rpm -qf snakegame.txt
+yum provides filename-glob
+
+#view software version
+rpm -q httpd
+
+#view installed software 
+rpm -qa
+yum list installed
+
+#System Locale
+#List All Available Locales
+localectl list-locales
+
+#show current Locale Setting 
+localectl status
+
+set or change system Locale
+localectl set-locale LANG=[locale]
+
+#Manage SOftware Using Yum
+#List All Enabled Repositories
+yum repolist
+
+#Search For a Package using Yum
+yum search httpd*
+
+ 
