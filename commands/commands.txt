@@ -1075,4 +1075,13 @@ df
 #Adduser in linux
 adduser selvaraj
 
+#primitive command line interface to RandR extension
+#laptop screen size and monitor resolution
+xrandr
+
+#laptop screen and monitor resolution
+xdpyinfo | grep dimensions
+xdpyinfo | awk '/dimensions/{print $2}'
+xdpyinfo  | grep -oP 'dimensions:\s+\K\S+'
+
 
