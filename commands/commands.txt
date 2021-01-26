@@ -1085,3 +1085,8 @@ xdpyinfo | awk '/dimensions/{print $2}'
 xdpyinfo  | grep -oP 'dimensions:\s+\K\S+'
 
 
+#awk commnands
+awk '{print}' linux.html
+awk '/html/ {print}' linux.html
+
+
