@@ -1090,4 +1090,12 @@ awk '{print}' linux.html
 awk '/html/ {print}' linux.html
 awk '{print $2}' linux.html
 
+#Runnnig Jobs in the Background
+sleep 1000 &
+jobs
+fg %1
+ps j
+bg %1
+
+
 
