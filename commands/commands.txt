@@ -1097,5 +1097,12 @@ fg %1
 ps j
 bg %1
 
+#show hardware information from the BIOS
+sudo dmidecode
+
+#Display disk data information
+sudo hdparm -i /dev/sda
+
+
 
 
