@@ -1103,6 +1103,13 @@ sudo dmidecode
 #Display disk data information
 sudo hdparm -i /dev/sda
 
+#Show PCI devices in a tree-like diagram
+lspci -tv
+
+#Display USB devices in a tree-like diagram
+lsusb -tv
+
+
 
 
 
