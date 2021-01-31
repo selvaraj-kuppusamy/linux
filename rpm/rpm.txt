@@ -47,4 +47,7 @@ yum repolist
 #Search For a Package using Yum
 yum search httpd*
 
+#Finding software with Yum
+yum list 'http*'
+yum search all 'web server'
  
