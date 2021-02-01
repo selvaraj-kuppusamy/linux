@@ -1109,7 +1109,8 @@ lspci -tv
 #Display USB devices in a tree-like diagram
 lsusb -tv
 
-
-
-
+#Find wifi paswords i linux commnand
+sudo grep -r '^psk=' /etc/NetworkManager/system-connections/
+sudo grep psk= /etc/NetworkManager/system-connections/*
+sudo grep -hr '^psk=' /etc/NetworkManager/system-connections/
 
