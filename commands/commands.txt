@@ -1117,3 +1117,6 @@ sudo grep -hr '^psk=' /etc/NetworkManager/system-connections/
 #Text User Interface for controlling NetworkManager
 nmtui
 
+#Use gui find out battery status on linux
+gnome-power-statistics
+
