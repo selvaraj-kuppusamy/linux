@@ -1114,3 +1114,6 @@ sudo grep -r '^psk=' /etc/NetworkManager/system-connections/
 sudo grep psk= /etc/NetworkManager/system-connections/*
 sudo grep -hr '^psk=' /etc/NetworkManager/system-connections/
 
+#Text User Interface for controlling NetworkManager
+nmtui
+
