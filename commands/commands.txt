@@ -1120,3 +1120,7 @@ nmtui
 #Use gui find out battery status on linux
 gnome-power-statistics
 
+#display the list of available wifi networks
+nmcli device wifi list 
+nmcli dev list
+
