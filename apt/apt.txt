@@ -14,3 +14,6 @@ sudo apt --fix-broken install
 #install c complier
 sudo apt install gcc
 
+#list all installed apt pacakges
+apt list --installed
+
