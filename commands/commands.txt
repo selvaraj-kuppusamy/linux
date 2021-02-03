@@ -1124,3 +1124,6 @@ gnome-power-statistics
 nmcli device wifi list 
 nmcli dev list
 
+#Program to manage Linux Kernel modules
+kmod list
+
