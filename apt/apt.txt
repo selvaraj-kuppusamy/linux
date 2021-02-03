@@ -10,3 +10,7 @@ sudo apt update && sudo apt upgrade
 
 #fix broken install
 sudo apt --fix-broken install
+
+#install c complier
+sudo apt install gcc
+
