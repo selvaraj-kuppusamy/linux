@@ -1127,3 +1127,6 @@ nmcli dev list
 #Program to manage Linux Kernel modules
 kmod list
 
+#Display information utility for x
+xdpyinfo
+
