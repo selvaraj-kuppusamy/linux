@@ -1130,3 +1130,7 @@ kmod list
 #Display information utility for x
 xdpyinfo
 
+#Funny commands in terminal
+aafire
+
+
