@@ -1133,4 +1133,7 @@ xdpyinfo
 #Funny commands in terminal
 aafire
 
+#view dynamically see the files 
+tail -f selva.txt
+tail -f linux.txt
 
