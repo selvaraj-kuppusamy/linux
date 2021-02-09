@@ -1137,3 +1137,7 @@ aafire
 tail -f selva.txt
 tail -f linux.txt
 
+#interactive process viewer
+htop
+
+
