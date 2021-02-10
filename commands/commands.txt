@@ -1140,4 +1140,6 @@ tail -f linux.txt
 #interactive process viewer
 htop
 
+#check file details
+stat selva.txt
 
