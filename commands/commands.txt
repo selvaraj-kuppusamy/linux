@@ -1143,3 +1143,6 @@ htop
 #check file details
 stat selva.txt
 
+#Remove with user interactive
+rm -i selva.txt
+
