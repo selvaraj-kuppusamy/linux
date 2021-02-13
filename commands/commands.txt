@@ -1146,3 +1146,7 @@ stat selva.txt
 #Remove with user interactive
 rm -i selva.txt
 
+#chmod commnand to excutable permission
+chmod +x selva.bash
+
+
