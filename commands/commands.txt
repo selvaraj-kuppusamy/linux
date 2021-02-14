@@ -1149,4 +1149,15 @@ rm -i selva.txt
 #chmod commnand to excutable permission
 chmod +x selva.bash
 
+#change the Owner of a file
+chown selvaraj addition.swift
+chown root subtraction.py
+#change the owner of a file with UID
+chown 1005 addition.swift
+#change ownership of Mutiple Linux Files
+chown root selva.c linux.java
+#To change the group of a file
+chown :selvaraj selva.txt
+#change the Group of a file using GID
+chown :1007 linux.txt
 
