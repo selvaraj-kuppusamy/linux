@@ -1160,4 +1160,6 @@ chown root selva.c linux.java
 chown :selvaraj selva.txt
 #change the Group of a file using GID
 chown :1007 linux.txt
+#change Owner and and the group
+chown selvaraj:root linux.c
 
