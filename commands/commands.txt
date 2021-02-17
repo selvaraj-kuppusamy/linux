@@ -1169,4 +1169,6 @@ cat /sys/class/net/*/address
 ifconfig -a | grep -ioE '([a-z0-9]{2}:){5}..'
 ifconfig -a | awk '/^\w/&&NF==5{print $NF}'
 
+#changing root password
+man sudo root
 
