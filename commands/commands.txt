@@ -1174,3 +1174,5 @@ ifconfig -a | awk '/^\w/&&NF==5{print $NF}'
 #changing root password
 man sudo root
 
+#list devices
+cat /proc/devices
