@@ -1176,3 +1176,7 @@ man sudo root
 
 #list devices
 cat /proc/devices
+
+#list time zones
+timedatectl list-timezones
+
