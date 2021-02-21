@@ -1180,3 +1180,6 @@ cat /proc/devices
 #list time zones
 timedatectl list-timezones
 
+#date commnands
+date --date="2 days ago"
+
