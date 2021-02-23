@@ -11,3 +11,4 @@ sudo pacman update && sudo pacman upgrade
 #Installed Packages
 pacman list --installed
 
+

@@ -1,0 +1,5 @@
+#zypper packages
+
+#Install zypper packages
+sudo zypper install httpd
+
