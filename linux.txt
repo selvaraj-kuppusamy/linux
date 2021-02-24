@@ -4,9 +4,10 @@ Experienced in linux
 *Kalilinux
 *ParrotosLinux
 *linuxmintLinux
+*ElementaryOSLinux
 
 #rpm packages
-RedHat linux
+*RedHat linux
 *CentOSLinux
 
 #dnf packages
