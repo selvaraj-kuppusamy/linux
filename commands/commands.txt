@@ -1186,4 +1186,8 @@ date --date="2 days ago"
 #list protocols
 cat /etc/protocols
 
+#change user password expiry information
+sudo chage -l selvaraj
+sudo chage -l root
+
 
