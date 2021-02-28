@@ -11,4 +11,6 @@ sudo pacman update && sudo pacman upgrade
 #Installed Packages
 pacman list --installed
 
+#Install software
+sudo pacman install httpd
 
