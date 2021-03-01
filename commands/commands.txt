@@ -1190,4 +1190,9 @@ cat /etc/protocols
 sudo chage -l selvaraj
 sudo chage -l root
 
+#top commnands
+top
+top -u selvaraj
+top -u root
+
 
