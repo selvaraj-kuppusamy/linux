@@ -1195,4 +1195,10 @@ top
 top -u selvaraj
 top -u root
 
+#mkfs command in linux
+sudo mkfs -t ntfs /dev/sdb1
+sudo mkfs -t ext4 /dev/sdb1
+sudo mkfs -t vfat /dev/sdb1
+
+
 
