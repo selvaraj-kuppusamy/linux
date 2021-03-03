@@ -1206,5 +1206,7 @@ df -T
 #List out process and relationships
 pstree -AU
 
-
+#packagement management in use linux distributions
+sudo vi /etc/apt/sources.list
+sudo vi /etc/yum.repos.d 
 
