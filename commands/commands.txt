@@ -1245,3 +1245,6 @@ pkill -SIGKILL chrome
 xclients
 xkill
 
+#Find computer architecture
+uname -m
+
