@@ -1210,3 +1210,22 @@ pstree -AU
 sudo vi /etc/apt/sources.list
 sudo vi /etc/yum.repos.d 
 
+#Kill commands
+kill -SIGNNULL 3986
+kill -0 3986
+kill -SIGHUP 3986
+kill -1 3986
+kill -SIGINT 3986
+kill -2 3986
+kill -SIGQUIT 3986
+kill -3 3986
+kill -SIGKILL 3986
+kill -9 3986
+kill -SIGTERM 3896
+kill -15 3896
+kill -SIGSTOP 3896
+kill -24 3896
+kill SIGSTP 3896
+kill -25 3896
+kill -SIGCONT 3896
+kill -26 3896
