@@ -1241,3 +1241,7 @@ pkill -1 chrome
 pkill chrome
 pkill -SIGKILL chrome
 
+#xkill commands
+xclients
+xkill
+
