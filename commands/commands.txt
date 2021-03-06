@@ -1229,3 +1229,8 @@ kill SIGSTP 3896
 kill -25 3896
 kill -SIGCONT 3896
 kill -26 3896
+
+#killall commands
+killall chrome
+killall -SIGSTOP chrome
+killall -SIGCONT chrome
