@@ -1234,3 +1234,10 @@ kill -26 3896
 killall chrome
 killall -SIGSTOP chrome
 killall -SIGCONT chrome
+
+pkill commmands
+pkill -9 chrome
+pkill -1 chrome
+pkill chrome
+pkill -SIGKILL chrome
+
