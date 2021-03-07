@@ -1248,3 +1248,8 @@ xkill
 #Find computer architecture
 uname -m
 
+#run a command immune to hangups or with output to non-tty
+nohub cat selva.sh
+nohub ping google.com&
+
+
