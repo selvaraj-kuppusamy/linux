@@ -7,3 +7,6 @@ sudo zypper install httpd
 sudo zypper remove httpd --purge
 sudo zypper purge httpd
 
+#list Zypper packages
+zypper list --installed
+
