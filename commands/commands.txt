@@ -1252,4 +1252,8 @@ uname -m
 nohub cat selva.sh
 nohub ping google.com&
 
+#cut commands
+cut -n 20 selva.txt
+cut -20 selva.txt
+cut -c 20 selva.c
 
