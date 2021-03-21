@@ -1257,3 +1257,7 @@ cut -n 20 selva.txt
 cut -20 selva.txt
 cut -c 20 selva.c
 
+#sort commands
+sort -rn selva.txt
+
+
