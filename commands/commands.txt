@@ -1256,6 +1256,8 @@ nohub ping google.com&
 cut -n 20 selva.txt
 cut -20 selva.txt
 cut -c 20 selva.c
+cut -b 5 selva.txt
+cut -s " " selva.txt
 
 #sort commands
 sort -rn selva.txt
