@@ -1265,3 +1265,6 @@ sort -rn selva.txt
 #paste commands
 paste -sd " " selva.txt
 
+#print or control the kernal ring buffer
+dmesg
+
