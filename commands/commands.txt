@@ -1268,3 +1268,7 @@ paste -sd " " selva.txt
 #print or control the kernal ring buffer
 dmesg
 
+#Find linux distribution Name and Version
+cat /etc/*-release
+hostnamectl
+
