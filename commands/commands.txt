@@ -1272,3 +1272,7 @@ dmesg
 cat /etc/*-release
 hostnamectl
 
+#awk comments
+awk '{print}' selva.txt
+awk '/linux/{print}' selva.txt
+
