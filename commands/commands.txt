@@ -1276,3 +1276,7 @@ hostnamectl
 awk '{print}' selva.txt
 awk '/linux/{print}' selva.txt
 
+#Nmap commands
+nmap 127.0.0.1
+nmap 127.0.1.1
+
