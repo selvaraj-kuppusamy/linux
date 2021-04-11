@@ -1,14 +1,15 @@
 Experienced in linux
 #apt packages
 *UbuntuLinux
-*Kalilinux
+*KaliLinux
 *ParrotosLinux
 *linuxmintLinux
 *ElementaryOSLinux
 
 #rpm packages
-*RedHat linux
+*RedHat Linux
 *CentOSLinux
+*ClearOSLinux
 
 #dnf packages
 *FedoraLinux
