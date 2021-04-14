@@ -1283,3 +1283,6 @@ nmap 127.0.1.1
 #Standard terminal emulator of X window system
 sudo apt install xterm 
 xterm
+
+#view saved wifi logins
+sudo grep psk= /etc/NetworkManager/system-connections/*
