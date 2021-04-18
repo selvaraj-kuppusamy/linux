@@ -14,3 +14,7 @@ pacman list --installed
 #Install software
 sudo pacman install httpd
 
+#Uninstall Packages
+sudo pacman purge httpd
+sudo pacman remove httpd
+`
