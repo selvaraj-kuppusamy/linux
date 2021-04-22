@@ -1286,3 +1286,9 @@ xterm
 
 #view saved wifi logins
 sudo grep psk= /etc/NetworkManager/system-connections/*
+
+#find whether command is an alils
+type ss
+type top
+type man
+
