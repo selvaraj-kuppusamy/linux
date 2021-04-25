@@ -2,3 +2,4 @@ Experienced in server
 
 #dnf packages
 *FedoraServer
+*CentOSServer
