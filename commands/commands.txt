@@ -1292,3 +1292,11 @@ type ss
 type top
 type man
 
+#clear cache in linux
+#clear pagecache
+http://server_domain_or_IP:8080/manager/html
+#clear dentries and inodes
+sync; echo 2 > /proc/sys/vm/drop_caches
+#clear pagecache,dentries and inodes
+sync; echo 3 > /proc/sys/vm/drop_caches
+
