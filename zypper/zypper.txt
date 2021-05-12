@@ -10,3 +10,5 @@ sudo zypper purge httpd
 #list Zypper packages
 zypper list --installed
 
+#update Zypper packages
+sudo zypper update
