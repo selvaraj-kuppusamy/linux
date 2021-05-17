@@ -10,3 +10,4 @@ service apache2 restart
 echo "Stopping a apache2 server on ubuntu"
 service apache2 stop
 
+
