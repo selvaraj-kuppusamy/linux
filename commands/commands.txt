@@ -1303,3 +1303,6 @@ sync; echo 3 > /proc/sys/vm/drop_caches
 #tee command
 wc -l selva.txt | tee -a raj.txt
 
+#print machine hardware name
+arch
+
