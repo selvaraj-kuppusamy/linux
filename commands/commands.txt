@@ -1306,3 +1306,6 @@ wc -l selva.txt | tee -a raj.txt
 #print machine hardware name
 arch
 
+#Find no user
+finf / -xdev -nouser
+
