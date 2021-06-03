@@ -1309,3 +1309,6 @@ arch
 #Find no user
 finf / -xdev -nouser
 
+#A network diagnostic tool
+mtr google.com
+
