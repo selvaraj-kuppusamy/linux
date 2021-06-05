@@ -1312,3 +1312,7 @@ finf / -xdev -nouser
 #A network diagnostic tool
 mtr google.com
 
+#print a sequence of numbers
+seq 1 20
+seq 1 10 | shuf
+
