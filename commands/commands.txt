@@ -1316,3 +1316,7 @@ mtr google.com
 seq 1 20
 seq 1 10 | shuf
 
+#dump traffic on a network
+tcpdump -i wlp2s0
+
+
