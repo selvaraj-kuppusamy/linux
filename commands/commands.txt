@@ -1319,4 +1319,8 @@ seq 1 10 | shuf
 #dump traffic on a network
 tcpdump -i wlp2s0
 
+#Determine file type
+file lamp.sh
+file linux.txt
+file index.html
 
