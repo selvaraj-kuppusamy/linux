@@ -1324,3 +1324,7 @@ file lamp.sh
 file linux.txt
 file index.html
 
+#DNS lookup utility
+host google.com 
+host www.google.com
+host linux.com
