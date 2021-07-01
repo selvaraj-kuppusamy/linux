@@ -1328,3 +1328,10 @@ file index.html
 host google.com 
 host www.google.com
 host linux.com
+
+#show a lisiting of last logged in users
+last 
+last selvaraj
+last -a
+last -i
+last -i selvaraj
