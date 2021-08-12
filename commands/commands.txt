@@ -179,6 +179,23 @@ factor 10
 find ./Documents -name s.txt
 find ./Downloads -name -perm 664
 find ./c -empty
+find . -name selva.txt
+find /home -name index.html
+find / -type d -name git
+find . -type f -name "*.asm"
+find . -type f -perm 0777 -print
+find . -type f ! -perm 0777 -print
+find / -perm /u=s
+find / -perm  /g=s
+find / -perm /u=r
+find / -perm /u=x
+find / -atime 50
+find / -mtime +50 -mtime -100
+find / -cmin -60
+find / -mmin -60
+find / -amin -60
+find / -size 50M
+
 
 #Display free sapce of memory and usage of memory
 free -h
