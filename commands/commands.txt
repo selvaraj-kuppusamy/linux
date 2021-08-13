@@ -589,7 +589,7 @@ yes linux
 #execute a program periodically, showing output fullscreen
 watch -b free -m
 watch -p free -m
-#quit watch commnads
+#quit watch commands
 ctrl+c
 
 #The non-interactive network downloader
