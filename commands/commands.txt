@@ -1352,3 +1352,10 @@ last selvaraj
 last -a
 last -i
 last -i selvaraj
+
+#type command
+type ls
+type -p ls
+type -t ls
+
+
