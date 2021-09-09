@@ -1324,7 +1324,7 @@ wc -l selva.txt | tee -a raj.txt
 arch
 
 #Find no user
-finf / -xdev -nouser
+find / -xdev -nouser
 
 #A network diagnostic tool
 mtr google.com
