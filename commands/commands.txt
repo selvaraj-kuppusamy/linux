@@ -1358,4 +1358,8 @@ type ls
 type -p ls
 type -t ls
 
+#change directory
+pushd /etc/
+popd
+
 
