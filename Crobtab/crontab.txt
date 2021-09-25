@@ -8,3 +8,4 @@ weekday(0-6,0=sunday)
 
 Example:
 01 04 1 1 1 /usr/bin/somedirectory/somecommand
+02 00 2 1 1 /use/bin/selva.sh
