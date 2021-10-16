@@ -1366,5 +1366,5 @@ popd
 lsmem
 
 #change file attributes on a Linux file system
-
+chattr
 
