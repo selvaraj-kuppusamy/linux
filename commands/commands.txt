@@ -1368,3 +1368,7 @@ lsmem
 #change file attributes on a Linux file system
 chattr +i demo/
 
+#ext2/3/4 filesystem backup
+rdump -0u -f selvaraj:/dev/nst0 /selva
+
+
