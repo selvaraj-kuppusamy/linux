@@ -1371,4 +1371,7 @@ chattr +i demo/
 #ext2/3/4 filesystem backup
 rdump -0u -f selvaraj:/dev/nst0 /selva
 
+#Tells whether a cable is plugged in or not
+ifplugstatus
+
 
