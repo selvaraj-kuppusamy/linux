@@ -1374,4 +1374,7 @@ rdump -0u -f selvaraj:/dev/nst0 /selva
 #Tells whether a cable is plugged in or not
 ifplugstatus
 
+#dump files in octal and other formats
+od s.txt
+od -c s.txt
 
