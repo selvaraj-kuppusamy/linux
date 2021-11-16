@@ -1378,3 +1378,6 @@ ifplugstatus
 od s.txt
 od -c s.txt
 
+#shows hardware information from the bios
+dmidecode
+
