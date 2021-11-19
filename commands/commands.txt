@@ -1377,6 +1377,7 @@ ifplugstatus
 #dump files in octal and other formats
 od s.txt
 od -c s.txt
+od -d s.txt
 
 #shows hardware information from the bios
 dmidecode
