@@ -1382,3 +1382,6 @@ od -d s.txt
 #shows hardware information from the bios
 dmidecode
 
+#Graphical command and behind the scene
+hollywood
+
