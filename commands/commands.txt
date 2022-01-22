@@ -1385,3 +1385,7 @@ dmidecode
 #Graphical command and behind the scene
 hollywood
 
+#overwrite a file to hide its contents
+shred selva.txt
+shred -u selva.txt
+
