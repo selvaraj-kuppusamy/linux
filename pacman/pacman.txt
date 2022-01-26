@@ -13,6 +13,7 @@ pacman list --installed
 
 #Install software
 sudo pacman install httpd
+sudo pacman install vim
 
 #Uninstall Packages
 sudo pacman purge httpd
