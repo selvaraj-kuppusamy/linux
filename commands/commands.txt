@@ -1392,3 +1392,7 @@ shred -u selva.txt
 #soundcard mixer for ALSA soundcard driver, with ncurses interface
 alsamixer
 
+#A fast, highly customizable system info script
+neofetch
+
+
