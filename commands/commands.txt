@@ -1395,4 +1395,6 @@ alsamixer
 #A fast, highly customizable system info script
 neofetch
 
+#Orphaned package finder
+deborphan
 
