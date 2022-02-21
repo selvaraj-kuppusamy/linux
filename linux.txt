@@ -5,6 +5,7 @@ Experienced in linux
 *ParrotosLinux
 *linuxmintLinux
 *ElementaryOSLinux
+*DebianLinux
 
 #rpm packages
 *RedHat Linux
