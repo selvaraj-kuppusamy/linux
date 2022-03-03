@@ -9,3 +9,4 @@ Experienced in server
 
 #apt packages
 *UbuntuServer
+*DebianServer
