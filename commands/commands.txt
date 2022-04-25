@@ -1398,3 +1398,5 @@ neofetch
 #Orphaned package finder
 deborphan
 
+#send a message using smtp
+
