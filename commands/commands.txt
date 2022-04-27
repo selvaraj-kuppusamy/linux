@@ -1401,3 +1401,5 @@ deborphan
 #send a message using smtp
 sendmail selvarajk.19msc@kongu.edu
 
+#sed command
+
