@@ -1402,4 +1402,5 @@ deborphan
 sendmail selvarajk.19msc@kongu.edu
 
 #sed command
+sed 's/unix/linux/g' selva.txt
 
